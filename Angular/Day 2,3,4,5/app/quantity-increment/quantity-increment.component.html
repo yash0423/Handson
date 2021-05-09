@@ -1,0 +1,5 @@
+
+<h1>Model Binding</h1>
+<button (click) = "decrement()" class="btn" [disabled] = "counter === 0">-</button>
+<input type="text" [(ngModel)]="counter">{{ counter }}
+<button (click) = "increment()">+</button>
